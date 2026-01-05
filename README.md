@@ -90,11 +90,10 @@ Output includes MAX severity and STATUS code per target.
 
 ### Hardening mode (shows everything):
 ```
-Target: https://eksisozluk.com/
-Summary: PASS=7 WARN=1 FAIL=1 INFO=0 | STATUS=403 | MAX_SEVERITY=MEDIUM
+Target: https://example.com/
+Summary: PASS=0 WARN=1 FAIL=4 INFO=4 | STATUS=200 | MAX_SEVERITY=MEDIUM
 ------------------------------------------------------------------------
-Warning: Non-2xx response (403). Headers may belong to an auth wall, 
-rate-limit, or WAF block page and may not represent the real application response.
+[FAIL][MEDIUM] HSTS: Missing Strict-Transport-Security header.
 ------------------------------------------------------------------------
 
 [WARN][LOW] HSTS: HSTS present but includeSubDomains is not set (may be acceptable).
