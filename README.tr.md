@@ -20,7 +20,7 @@ Bu araç exploit yapmaz. Amaç: eksik/zayıf savunma header'larını görüp, ne
 
 ## Kurulum
 ```bash
-git clone https://github.com/<username>/header-scout.git
+git clone https://github.com/dgn-env0/header-scout.git
 cd header-scout
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
